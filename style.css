@@ -1,0 +1,202 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  overflow-x: hidden;
+}
+.navbar {
+  background-color: #0a355f; 
+  color: white;
+  width:1272px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  height:220px;
+  display:inline-block;
+}
+.micro{
+    font-size:50px;
+    border: 5px solid white;
+    border-radius:25%;
+    border-right: transparent ;
+}
+.central{
+    text-decoration: underline;
+}
+.cen1{
+  font-size:22px;
+  letter-spacing: 2px;
+}
+.cen2{
+  font-size:17px;
+  letter-spacing: 2px;
+}
+.cen3{
+  font-size:24px;
+  letter-spacing: 2px;
+}
+.college{
+  margin-top:7px;
+    font-weight:light;
+    font-size:12px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight:bold;
+  display:flexbox;
+}
+
+.logo span {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-top:5px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #446292;
+  background-color: aliceblue;
+  font-weight: 500;
+  padding: 8px 14px;
+  border-radius: 20px;
+  transition: background 0.3s;
+}
+
+.nav-links a:hover {
+  background-color:#BCD6F6 ; 
+}
+.cen{
+    font-size:30px;
+    font-weight:bold;
+    text-decoration: underline;
+}
+.college_logo{
+    height:50px;
+    background-size: cover;
+}
+.icons{
+    left:-10;
+    height:40px;
+    padding-left:40px;
+    width:100px;
+}
+.right-icons{
+   margin-top: 0%;
+   display: flex;
+flex-wrap: wrap;
+justify-content: flex-end ;
+align-items: center;
+}
+.icons{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between ;
+align-items: center;
+    height:40px;
+   width:200px;
+}
+.border{
+  font-size:20px;
+  margin-right:5px;
+}
+.border:hover{
+  border: 4px solid white;
+}
+.main{
+  height:300px;
+  width:1272px;
+}
+.footer{
+  color:white;
+  height:240px;
+  width:1272px;
+  background-color: #0a355f;
+}
+.blocks{
+  display:flex;
+}
+.box1,.box2,.box3,.box4{
+  color:white;
+  margin-top:30px;
+   height:130px;
+  width:270px; 
+}
+.logo_bottom{
+  display: flex;
+}
+.microscope{
+  font-size:40px;
+  border: 5px solid white;
+    border-radius:25%;
+    border-right: transparent ;
+}
+.cent{
+  text-decoration: underline;
+  font-weight:bold;
+  margin-left: 10px;
+}
+.cent1{
+  font-size:18px;
+}
+.cent2{
+  font-size:15px;
+}
+.cent3{
+  font-size:19px;
+}
+.college2{
+  margin-top:10px;
+  font-weight:bold;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  font-size:10px;
+}
+.box1{
+  margin-left:50px;
+  margin-right:15px;
+}
+.box2{
+  margin-right:35px;
+}
+.box3{
+ margin-right:35px;
+}
+.shape1{
+  margin-top:3px;
+  font-size:16px;
+}
+.shape2{
+  margin-top:2px;
+  font-size:14px;
+}
+.right{
+  margin-left:90px;
+}
+.fac{
+  color:aqua;
+  margin-left:70px;
+}
+.copy{
+  display:flex;
+  margin-top:10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+}
